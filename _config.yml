@@ -31,3 +31,7 @@ markdown: kramdown
 # Example of an FTP deployment (copy generated files in _site/ to public_html/portfolio):
 # baseurl: "/~schaad/portfolio"
 # url: "http://web.media.mit.edu"
+
+# Example of a GH Pages deployment (sources pushed to repo "portfolio", branch "gh-pages"):
+# baseurl: "/portfolio"
+# url: "https://raphaelschaad.github.io"
