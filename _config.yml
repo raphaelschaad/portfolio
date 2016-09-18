@@ -6,8 +6,8 @@
 # For multiline values (with line breaks) prepend  `> `, e.g. description: > …
 title: Raphael Schaad
 description: 2014 Portfolio Raphael Schaad # appears in head meta (for search engines) and in the feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog (forward slash prefix required)
-url: "" # the base url for your site, e.g. http://example.com
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog (forward slash prefix required)
+url: "https://raphaelschaad.github.io" # the base url for your site, e.g. http://example.com
 permalink: /:path # use filename as URL for posts, e.g. 2010-01-01-foo.md -> example.com/foo (also for pages)
 
 collections:
