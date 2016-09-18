@@ -1,0 +1,6 @@
+<footer class="site-footer">
+{% if page.category %}
+  <div class="year">{{ page.years }}&emsp;Filed under {% for tag in page.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}</div>
+  <a class="overview" href="{{ site.baseurl }}/">back to overview</a>
+{% endif %}
+</footer>

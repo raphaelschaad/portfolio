@@ -1,0 +1,33 @@
+# This config file is meant for site and build settings affecting the entire blog, values that are rarely edited.
+# Change are not reflected automatically and `jekyl serve` has to be restarted manually.
+
+# Site settings
+# Custom key-value pairs can be specified here as well, e.g. email: example@example.com, twitter_username: example, etc.
+# For multiline values (with line breaks) prepend  `> `, e.g. description: > …
+title: Raphael Schaad
+description: 2014 Portfolio Raphael Schaad # appears in head meta (for search engines) and in the feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog (forward slash prefix required)
+url: "" # the base url for your site, e.g. http://example.com
+permalink: /:path # use filename as URL for posts, e.g. 2010-01-01-foo.md -> example.com/foo (also for pages)
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:path
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: page
+
+# Build settings
+markdown: kramdown
+
+# For a poor man's static archival deployment with relative links,
+# change baseurl to ".", uncomment permalink, and suffix collections > portfolio > permalink with ".html".
+# Note that in-article relative links won't work and videos won't properly embed when opening via "file:///.
+
+# Example of an FTP deployment (copy generated files in _site/ to public_html/portfolio):
+# baseurl: "/~schaad/portfolio"
+# url: "http://web.media.mit.edu"
