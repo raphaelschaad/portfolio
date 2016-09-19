@@ -13,7 +13,13 @@ links:
 *“Everything goes away except for the writing experience”*
 —Stephen Fry, about iA Writer
 
-<iframe src="//player.vimeo.com/video/18777877?title=0&byline=0&portrait=0&autoplay=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<!-- This video isn't hosted on Vimeo anymore. -->
+<!-- If autoplay is disabled, a better poster frame than black should be defined. -->
+<!-- 428 is 50% of the native video height of 856, and seems reasonable. -->
+<video width="640" height="428" controls autoplay>
+  <source src="videos/ia-writer/ia-writer-for-ipad.mp4" type="video/mp4">
+  Your browser does not support playing this video.
+</video>
 
 A conversation on Twitter in 2009 with the founder of Information Architects (iA) sparked a collaboration on a “Writing Machine.” I prototyped and reinvented interfaces for text entry on desktop computers, tablets, and smart phones. In 2010 we released *iA Writer*, a word processor designed to single-mindedly focus on writing. The video shows the features and interactions.
 
