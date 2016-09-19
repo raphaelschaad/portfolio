@@ -7,13 +7,12 @@ years: 2009–2010
 tile-header: tile-header640w@2x.jpg
 tile: tile400w@2x.jpg
 links:
-  - "[iA Writer Feature Walkthrough Video](https://vimeo.com/18777877)"
-  - "[iA Writer Website](http://www.iawriter.com)"
+  - "[iA Writer Website](https://ia.net/writer)"
 ---
 *“Everything goes away except for the writing experience”*
 —Stephen Fry, about iA Writer
 
-<!-- This video isn't hosted on Vimeo anymore. -->
+<!-- This video "iA Writer Feature Walkthrough Video" (https://vimeo.com/18777877) isn't hosted on Vimeo anymore. -->
 <!-- If autoplay is disabled, a better poster frame than black should be defined. -->
 <!-- 428 is 50% of the native video height of 856, and seems reasonable. -->
 <video width="640" height="428" controls autoplay>
