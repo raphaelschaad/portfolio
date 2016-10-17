@@ -16,9 +16,9 @@ links:
 —Stephen Fry, about iA Writer
 
 <!-- This video "iA Writer Feature Walkthrough Video" (https://vimeo.com/18777877) isn't hosted on Vimeo anymore. -->
-<!-- If autoplay is disabled, a better poster frame than black should be defined. -->
 <!-- 428 is 50% of the native video height of 856, and seems reasonable. -->
-<video width="640" height="428" controls autoplay>
+<!-- Specify poster frame to show something other than just black in case we don't specify autoplay (or for mobile devices, where autoplay is off by default) -->
+<video width="640" height="428" poster="videos/ia-writer/poster.jpg" controls autoplay>
   <source src="videos/ia-writer/ia-writer-for-ipad.mp4" type="video/mp4">
   Your browser does not support playing this video.
 </video>
