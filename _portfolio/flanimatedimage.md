@@ -6,7 +6,7 @@ tags: [Engineering, Open Source]
 years: 2013–present
 tile: tile400w@2x.jpg
 links:
-  - "[Article “How Flipboard Plays Animated GIFs on iOS” by Raphael Schaad](http://engineering.flipboard.com/2014/05/animated-gif/)"
+  - "[Article “How Flipboard Plays Animated GIFs on iOS” by Raphael Schaad](http://engineering.flipboard.com/2014/05/animated-gif)"
   - "[FLAnimatedImage on GitHub by Raphael Schaad](https://github.com/Flipboard/FLAnimatedImage)"
   - "[Engadget: Flipboard iOS app update introduces animated GIF support](http://www.engadget.com/2013/08/14/flipboard-ios-app-update-gif-support/)"
   - "[TechCrunch: Flipboard Updates iOS App With GIF Support](http://techcrunch.com/2013/08/14/flipboard-updates-ios-app-with-gif-support/)"
@@ -14,7 +14,7 @@ links:
 ---
 ***FLAnimatedImage* is a performant iOS animated GIF engine that I built for [Flipboard](flipboard)).** It became the most popular [open source iOS animated GIF engine on GitHub](https://github.com/Flipboard/FLAnimatedImage), used by many of the top downloaded apps in the *Apple App Store*.
 
-Accompanying the release of the open source project and to describe the many requirements, surprising challenges, and final solution, **I wrote [an article on “How Flipboard Plays Animated GIFs on iOS”](http://engineering.flipboard.com/2014/05/animated-gif/).**
+Accompanying the release of the open source project and to describe the many requirements, surprising challenges, and final solution, **I wrote [an article on “How Flipboard Plays Animated GIFs on iOS”](http://engineering.flipboard.com/2014/05/animated-gif).**
 
 Excerpt:
 
@@ -24,7 +24,7 @@ When it came to animated GIFs, we knew we wanted them to play automatically in o
 
 One would think that such an ancient image format would be supported out of the box for developers on modern iOS devices. But not even all of Apple’s own apps play them. When viewed with the mobile browser, the system often slows to a crawl. It’s challenging to keep the memory footprint and CPU usage low while maintaining fidelity to the playback timings …*
 
-[Full technical article with illustrations](http://engineering.flipboard.com/2014/05/animated-gif/)
+[Full technical article with illustrations](http://engineering.flipboard.com/2014/05/animated-gif) ([mirror on the Flipboard Engineering Magazine](https://flipboard.com/@flipboard/engineering-blog-5eb9rorbz/how-flipboard-plays-animated-gifs-on-ios/a-_TqBuj7rTdW_cOtfSeTONA%3Aa%3A3153968-9fa91aad6b%2Fflipboard.com))
 
 ![FLAnimatedImage Flipboard](images/flanimatedimage/flanimatedimage-flipboard.gif)
 
